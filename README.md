@@ -55,5 +55,22 @@ We create the Start Docker containers playbook:
 
 Execute playbook on new server:
 
-Make the playbooks more generic:
+![Screenshot 2024-02-29 at 14 56 31](https://github.com/redjules/Ansible-Docker-Run-Docker-applications/assets/106017493/2e677a1b-b24f-4441-a41a-d412a2b45c4c)
+
+we changed the host with the new IP address:
+
+![Screenshot 2024-02-29 at 14 57 04](https://github.com/redjules/Ansible-Docker-Run-Docker-applications/assets/106017493/06272601-3fe2-446a-872e-327cd6684022)
+
+we run the playbook:
+
+![Screenshot 2024-02-29 at 14 58 23](https://github.com/redjules/Ansible-Docker-Run-Docker-applications/assets/106017493/93161291-2493-41bb-86b6-0029b4733dde)
+
+we get an error and then we add the line gatherimg_facts: False
+
+![Screenshot 2024-02-29 at 14 58 50](https://github.com/redjules/Ansible-Docker-Run-Docker-applications/assets/106017493/8ecc3562-4b1f-4257-bfac-ed0f036c7144)
+
+![Screenshot 2024-02-29 at 14 59 06](https://github.com/redjules/Ansible-Docker-Run-Docker-applications/assets/106017493/2f562e72-a9be-45f9-bed2-226617974b14)
+
+and now it works!
+
 
