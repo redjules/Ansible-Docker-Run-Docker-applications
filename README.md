@@ -14,7 +14,7 @@ and we connect to the EC2:
 
 ![Screenshot 2024-02-28 at 15 47 30](https://github.com/redjules/Ansible-Docker-Run-Docker-applications/assets/106017493/1163e9f8-5c1a-41c6-80ce-653c9334ec87)
 
-We create a playbook fro docjker and execute it:
+We create a playbook from docker and execute it:
 
 ![Screenshot 2024-02-28 at 15 53 32](https://github.com/redjules/Ansible-Docker-Run-Docker-applications/assets/106017493/c2e23d16-0a42-480e-962e-78a4f4babd38)
 
